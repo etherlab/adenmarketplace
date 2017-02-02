@@ -10,9 +10,8 @@
     export default{
         data(){
             return{
-                msg:'hello vue'
+                msg:'hello cvg'
             }
         }
     }
 </script>
-

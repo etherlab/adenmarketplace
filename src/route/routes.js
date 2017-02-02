@@ -8,11 +8,16 @@ export default [
         path: '/',
         component: Posts,
         children:[
-            {
-                path: '/comment',
-                component: Comment,
-               // beforeEnter: Auth
-            }
+          {
+            path: '/comment',
+            component: Comment,
+           // beforeEnter: Auth
+         },
+         {
+           path: '/postit',
+           component: Comment
+          //beforeEnter: Auth
+         }
         ]
     }
 ]
