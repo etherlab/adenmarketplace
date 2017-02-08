@@ -1,9 +1,3 @@
-/**
- * HOMER - Responsive Admin Theme
- * version 1.8
- *
- */
-
 $(document).ready(function () {
 
     // Add special class to minimalize page elements when screen is less than 768px

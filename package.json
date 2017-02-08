@@ -8,7 +8,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.4",
+    "bootstrap": "^3.3.7",
     "vue": "^2.0.1",
     "vue-resource": "^1.0.3",
     "vue-router": "^2.0.0",
@@ -23,7 +23,15 @@
     "lodash": "^4.14.0",
     "moment": "^2.14.1",
     "moment-timezone": "^0.5.5",
-    "tether": "^1.3.7"
+    "tether": "^1.3.7",
+    "font-awesome": "^4.7.0",
+    "metismenu": "^2.6.2",
+    "animate.css": "^3.5.2",
+    "awesome-bootstrap-checkbox": "^1.0.0-alpha.4",
+    "slimscroll": "^0.9.1",
+    "icheck": "^1.0.2",
+    "peity": "^3.2.1",
+    "sparkline": "^0.1.2"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
@@ -48,6 +56,7 @@
     "vue-server-renderer": "^2.0.2",
     "vue-template-compiler": "^2.1.8",
     "webpack": "2.2.0",
-    "webpack-dev-server": "^2.1.0-beta.11"
+    "webpack-dev-server": "^2.1.0-beta.11",
+    "style-loader": "0.13.1"
   }
 }
